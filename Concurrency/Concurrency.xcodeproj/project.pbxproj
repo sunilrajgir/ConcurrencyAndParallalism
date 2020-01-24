@@ -15,6 +15,7 @@
 		326789C323DB49A30015C6B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326789C123DB49A30015C6B1 /* LaunchScreen.storyboard */; };
 		326789CC23DB49D80015C6B1 /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326789CA23DB49D80015C6B1 /* ViewControllerA.swift */; };
 		326789CD23DB49D80015C6B1 /* ViewControllerA.xib in Resources */ = {isa = PBXBuildFile; fileRef = 326789CB23DB49D80015C6B1 /* ViewControllerA.xib */; };
+		326789D023DB535D0015C6B1 /* ThreadClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326789CF23DB535D0015C6B1 /* ThreadClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		326789C423DB49A30015C6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		326789CA23DB49D80015C6B1 /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
 		326789CB23DB49D80015C6B1 /* ViewControllerA.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewControllerA.xib; sourceTree = "<group>"; };
+		326789CF23DB535D0015C6B1 /* ThreadClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		326789B523DB49A10015C6B1 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				326789CE23DB53300015C6B1 /* Important */,
 				326789B623DB49A10015C6B1 /* AppDelegate.swift */,
 				326789B823DB49A10015C6B1 /* SceneDelegate.swift */,
 				326789BA23DB49A10015C6B1 /* ViewController.swift */,
@@ -67,10 +70,18 @@
 				326789BF23DB49A30015C6B1 /* Assets.xcassets */,
 				326789C123DB49A30015C6B1 /* LaunchScreen.storyboard */,
 				326789C423DB49A30015C6B1 /* Info.plist */,
-				326789CA23DB49D80015C6B1 /* ViewControllerA.swift */,
 				326789CB23DB49D80015C6B1 /* ViewControllerA.xib */,
 			);
 			path = Concurrency;
+			sourceTree = "<group>";
+		};
+		326789CE23DB53300015C6B1 /* Important */ = {
+			isa = PBXGroup;
+			children = (
+				326789CA23DB49D80015C6B1 /* ViewControllerA.swift */,
+				326789CF23DB535D0015C6B1 /* ThreadClass.swift */,
+			);
+			path = Important;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326789D023DB535D0015C6B1 /* ThreadClass.swift in Sources */,
 				326789CC23DB49D80015C6B1 /* ViewControllerA.swift in Sources */,
 				326789BB23DB49A10015C6B1 /* ViewController.swift in Sources */,
 				326789B723DB49A10015C6B1 /* AppDelegate.swift in Sources */,
